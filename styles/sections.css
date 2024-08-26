@@ -23,18 +23,7 @@
       margin-inline: auto;
       margin-top: 56px;
 
-      small {
-        font: var(--subtitle);
-        color: var(--gray-500);
-
-        span {
-          color: var(--color-red);
-        }
-      }
-
       h1 {
-        font: var(--title-lg);
-        color: var(--gray-600);
         margin-bottom: 20px;
       }
     }
@@ -59,5 +48,12 @@
     a {
       margin-top: 94px;
     }
+  }
+}
+
+
+#main {
+  header {
+    text-align: center;
   }
 }

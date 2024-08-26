@@ -47,6 +47,25 @@ h3 {
   font: inherit;
 }
 
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+small {
+  font: var(--subtitle);
+  color: var(--gray-500);
+
+  span {
+    color: var(--color-red);
+  }
+}
+
 img {
   max-width: 100%;
 }
