@@ -51,9 +51,57 @@
   }
 }
 
-
 #main {
   header {
     text-align: center;
+    padding-block: 72px 56px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    max-width: 1040px;
+    margin-inline: auto;
+    margin-bottom: 144px;
+
+    a {
+      background-color: var(--gray-300);
+      padding: 12px;
+      border-radius: 12px;
+
+      &:hover {
+        border: 1px solid var(--gray-400);
+      }
+
+      img {
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-block: 8px 5px;
+      }
+    }
+  }
+
+  .services {
+    background-color: var(--gray-100);
+    padding-bottom: 120px;
+
+    header {
+      padding-block: 88px 56px;
+    }
+
+    main {
+      max-width: 888px;
+      margin-bottom: 0;
+
+      div {
+        border: 1px solid var(--gray-300);
+        border-radius: 12px;
+        padding: 20px;
+      }
+    }
   }
 }
