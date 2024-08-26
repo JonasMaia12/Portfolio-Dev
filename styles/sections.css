@@ -18,7 +18,6 @@
     }
 
     header {
-      text-align: center;
       max-width: 680px;
       margin-inline: auto;
       margin-top: 56px;
@@ -53,7 +52,6 @@
 
 #main {
   header {
-    text-align: center;
     padding-block: 72px 56px;
   }
 
@@ -101,6 +99,48 @@
         border: 1px solid var(--gray-300);
         border-radius: 12px;
         padding: 20px;
+      }
+    }
+  }
+}
+
+#Contacts {
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  min-height: 787px;
+  align-content: center;
+
+  header {
+    margin-bottom: 48px;
+
+    small {
+      color: var(--color-purple);
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    a {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--gray-300);
+      padding: 20px;
+      border-radius: 8px;
+
+      &:hover {
+        border: 1px solid var(--color-blue);
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        gap: 12px;
       }
     }
   }
