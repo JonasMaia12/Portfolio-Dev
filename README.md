@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Portfólio Dev é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
 
-- [Acesse o projeto finalizado, online](https://jonasmaia12.github.io/DevLinks/)
+- [Acesse o projeto finalizado, online](https://jonasmaia12.github.io/Portfolio-Dev/)
 
 ## 🔖 Layout
 
